@@ -13,6 +13,7 @@
 		EB531A4528B8CA4F00966574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB531A4328B8CA4F00966574 /* Main.storyboard */; };
 		EB531A4728B8CA5000966574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB531A4628B8CA5000966574 /* Assets.xcassets */; };
 		EB531A4A28B8CA5000966574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB531A4828B8CA5000966574 /* LaunchScreen.storyboard */; };
+		EB531A5228B8CAA800966574 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A5128B8CAA800966574 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB531A4628B8CA5000966574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB531A4928B8CA5000966574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB531A4B28B8CA5000966574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB531A5128B8CAA800966574 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EB531A4628B8CA5000966574 /* Assets.xcassets */,
 				EB531A4828B8CA5000966574 /* LaunchScreen.storyboard */,
 				EB531A4B28B8CA5000966574 /* Info.plist */,
+				EB531A5128B8CAA800966574 /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB531A5228B8CAA800966574 /* MemoViewController.swift in Sources */,
 				EB531A4228B8CA4F00966574 /* ViewController.swift in Sources */,
 				EB531A3E28B8CA4F00966574 /* AppDelegate.swift in Sources */,
 				EB531A4028B8CA4F00966574 /* SceneDelegate.swift in Sources */,
